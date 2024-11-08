@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  color: #FF6B82;
+}
+.box {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box:hover {
+  background-color: #FF6B82;
+}
+
+.options {
+  display: none;
+  margin-top: 10px;
+}
+
+
+.free-shipping {
+  font-size: 16px;
+  color: #FF6B82;
+  font-weight: bold;
+  
+}
+
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #FF6B82;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f7c3f7;
+}
+/* @ Powered by Pumper */
+.p{
+position: absolute;
+width: 129px;
+height: 15px;
+left: 271px;
+top: 542px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+}
