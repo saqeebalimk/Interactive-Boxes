@@ -21,5 +21,5 @@ This project is a simple interactive webpage that displays **three vertically st
 
 ---
 
-## 📁 Project Structure
+
 
